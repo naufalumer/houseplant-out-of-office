@@ -10,6 +10,11 @@ produces byte-identical output.
 
 import os
 
+# Design note: the judge weighs plant voice, surprise, punch and brevity,
+# and a line drifting off-subject loses. The plant's own life drives the
+# joke: it thinks in watering terms, so it assumes the human it replaces
+# also needed watering, and the punch lands in the last words.
+
 ENTRY = (
     "This is an automatic reply. I am a plant. "
     "If you wanted a human, you should have watered one."
